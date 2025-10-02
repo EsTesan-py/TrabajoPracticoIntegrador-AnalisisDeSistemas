@@ -30,6 +30,6 @@ En este repositorio almacenaremos y subiremos toda la información, detalles, av
 | Entrega | Tema | Estado |
 |--------|---------|--------|
 | 1      | Modelado de proceso | ✅ |
-| 2      | -       | ⏳ |
+| 2      | Diagrama de clase    | ✅ |
 | 3      | -  | ⏳ |
 | 4      | -    | ⏳ |
