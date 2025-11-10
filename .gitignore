@@ -1,1 +1,45 @@
+### Monorepo assets
 GPUCache/
+
+### Node / Next.js artifacts
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+.npm/
+
+.next/
+out/
+build/
+dist/
+
+# Turborepo
+.turbo/
+
+### Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Environment files
+.env
+.env.*
+
+### Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+### OS-specific
+.DS_Store
+Thumbs.db
+
+### Coverage / testing
+coverage/
+.nyc_output
+.jest/
+*.tsbuildinfo
