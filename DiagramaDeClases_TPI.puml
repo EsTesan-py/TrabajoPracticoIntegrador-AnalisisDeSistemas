@@ -1,0 +1,42 @@
+@startuml TrabajoPracticoIntegrador
+
+/*La Facultad ha decidido avanzar con la implementación de un sistema para gestionar
+el uso de los espacios de estacionamiento dentro del campus. Este sistema deberá
+permitir no solo controlar el acceso de vehículos y el uso del espacio físico disponible,
+sino también gestionar los cobros, registros y excepciones de acuerdo con la
+comunidad universitaria y sus visitantes.
+Se busca diseñar un sistema que contemple las diversas realidades y necesidades de
+los usuarios que utilizan el estacionamiento. Entre ellos se encuentran docentes, no
+docentes, alumnos, invitados y personas externas a la institución.
+Para poder utilizar el sistema, los usuarios frecuentes (es decir, quienes pertenecen a
+la comunidad universitaria) deberán registrar su vehículo previamente. Una vez
+realizado este paso, podrán optar entre mantener una cuenta corriente recargable o
+pagar un abono mensual, ambos gestionados desde una oficina administrativa de la
+facultad.
+El cobro del uso del estacionamiento será diario y fijo, independientemente de la
+cantidad de veces que un mismo vehículo ingrese y egrese durante el día. Sin
+embargo, si un vehículo entra y sale en un lapso menor a cinco minutos, no se le
+cobrará el uso del espacio.
+Los usuarios externos que deseen estacionar dentro del campus podrán hacerlo
+abonando en el momento, sin necesidad de registrar previamente su vehículo. Por otra
+parte, los invitados que accedan al campus por alguna actividad oficial no deberán
+pagar el estacionamiento, pero su ingreso debe estar registrado con antelación para
+poder identificarlos correctamente y evitar el cobro.
+La facultad podrá definir tarifas diferenciadas según el tipo de usuario.
+Por cuestiones de seguridad, se necesita contar con información actualizada sobre la disponibilidad de los espacios en todo momento para evitar sobreocupaciones.
+Además, el sistema deberá contemplar una situación excepcional: cuando una
+persona con cuenta corriente o abono no posea saldo suficiente, podrá ingresar una
+única vez con saldo negativo. El importe adeudado deberá ser cobrado
+automáticamente cuando esa persona recargue nuevamente su cuenta.
+*/
+
+usecase "1. Registro de usuarios" as UC1
+usecase "2. Registro de vehículos" as UC2
+usecase "3. Registro de abonos" as UC3
+usecase "4. Registro de cobros" as UC4
+usecase "5. Registro de excepciones" as UC5
+usecase "6. Registro de saldo" as UC6
+usecase "7. Registro de disponibilidad" as UC7
+usecase "8. Registro de estacionamiento" as UC8
+usecase "9. Registro de salidas" as UC9
+usecase "10. Registro de ingresos" as UC10

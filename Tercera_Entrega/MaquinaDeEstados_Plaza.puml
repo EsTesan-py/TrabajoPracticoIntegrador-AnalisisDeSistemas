@@ -1,0 +1,13 @@
+@startuml MaquinaDeEstados_Plaza
+
+[*] --> Disponible : Crear()
+Disponible --> Ocupada : RegistrarEntrada()
+Disponible --> NoDisponible : ActualizarEstado()
+Ocupada --> Disponible : RegistrarSalida()
+NoDisponible --> Disponible : ActualizarEstado()
+note right of NoDisponible
+  El metodo actualizar estado es utilizado 
+  para modificar el estado de la plaza tanto 
+  de DISPONIBLE como a NO DISPONIBLE.
+end note
+@enduml
