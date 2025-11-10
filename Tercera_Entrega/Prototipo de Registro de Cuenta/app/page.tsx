@@ -252,8 +252,8 @@ export default function RegistroCuentaUsuario() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-blue-100 dark:from-slate-950 dark:via-blue-950 dark:to-slate-900 flex items-center justify-center p-4">
-      <Card className="w-full max-w-2xl shadow-2xl border-primary/30">
-        <CardHeader className="space-y-2 bg-gradient-to-r from-primary via-primary to-accent text-primary-foreground rounded-t-lg">
+      <Card className="w-full max-w-2xl shadow-2xl border-primary/30 pt-0">
+        <CardHeader className="space-y-2 py-5 bg-gradient-to-r from-primary via-primary to-accent text-primary-foreground rounded-t-lg">
           <div className="flex items-center justify-center mb-2">
             <div className="p-3 bg-white/20 rounded-lg">
               <User className="h-8 w-8" />
