@@ -78,5 +78,5 @@ El proyecto incluye los siguientes módulos unificados:
 |--------|---------|--------|
 | 1      | Modelado de proceso | ✅ |
 | 2      | Diagrama de clase    | ✅ |
-| 3      | -  | ⏳ |
+| 3      | Diagrama de casos de uso  | ✅ |
 | 4      | -    | ⏳ |
